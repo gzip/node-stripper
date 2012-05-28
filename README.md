@@ -15,25 +15,27 @@ This software is meant primarily as a build tool. A basic syntax and simple prep
     var stripper = require('stripper');
     var stripped = stripper.strip('lib.js');
 
-#### Input
+##### Input
 
-    start
+    // start
+    do something
     // STRIP
     strip it
     // END_STRIP
-    end
+    // end
 
-#### Output
+###### Output
 
-    start
-    end
+    // start
+    do something
+    // end
 
 ### Typical Options
 
     var stripper = require('stripper');
     var stripped = stripper.strip({path: 'lib.js', inclusive: false, startToken: 'DEBUG', endToken: 'END'});
 
-#### Input
+##### Input
 
     start
     /* DEBUG
@@ -41,7 +43,7 @@ This software is meant primarily as a build tool. A basic syntax and simple prep
     END */
     end
 
-#### Output
+##### Output
 
     start
     debug
@@ -50,22 +52,22 @@ This software is meant primarily as a build tool. A basic syntax and simple prep
 ### Preprocessor
 
     var stripper = require('stripper');
-    var stripped = stripper.strip({path: 'lib.js', preprocess: {FOO: true, BAR: true});
+    var stripped = stripper.strip({path: 'lib.js', preprocess: {FOO: true});
 
-#### Input
+##### Input
 
     start
     // #ifdef FOO
     foo
-    // #endifdef
-    // #ifndef BAR
-    bar
     // #else
-    nobar
-    // #endifndef
+    nofoo
+    // #endifdef
     end
+    // #ifndef BAR
+   nobar
+    // #endifndef
 
-#### Output
+##### Output
 
     start
     foo
