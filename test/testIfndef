@@ -1,0 +1,19 @@
+{"preprocess": {"PROD": true, "DEV": false}}
+-----
+etc
+  // #ifndef DEV
+we be prod!
+  // #else
+we be dev!
+  // #endifndef
+etc
+/* #ifndef DEV */
+we be prod!
+/* #endifndef */
+etc
+-----
+etc
+we be prod!
+etc
+we be prod!
+etc

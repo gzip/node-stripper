@@ -1,0 +1,21 @@
+{
+  "name": "stripper",
+  "description": "Strips formatted comments to enable and disable blocks of code, supporting both a simplified syntax and basic preprocessor.",
+  "version": "0.0.1",
+  "author": "Gamaiel Zavala <gamaiel@yahoo.com>",
+  "homepage": "https://github.com/gzip/node-stripper/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gzip/node-stripper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gzip/node-stripper/issues"
+  },
+  "engines": {
+    "node": ">= 0.4.2 < 0.7.0"
+  },
+  "dependencies": {
+  },
+  "scripts": {
+  }
+}

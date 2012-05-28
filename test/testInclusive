@@ -1,0 +1,17 @@
+{"inclusive": false, "startToken": "KEEP", "endToken": "END"}
+-----
+etc
+// KEEP
+keep it
+// END
+etc
+/* KEEP
+keep it
+END */
+etc
+-----
+etc
+keep it
+etc
+keep it
+etc

@@ -1,0 +1,19 @@
+{"preprocess": {"DEBUG": true}}
+-----
+etc
+// #ifdef DEBUG
+we be debuggin!
+// #else
+we not debuggin!
+// #endifdef
+etc
+/* #ifdef DEBUG */
+we be debuggin!
+/* #endifdef */
+etc
+-----
+etc
+we be debuggin!
+etc
+we be debuggin!
+etc

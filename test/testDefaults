@@ -1,0 +1,22 @@
+{}
+-----
+etc
+// STRIP
+strip it
+// END_STRIP
+etc
+/* STRIP
+strip it
+END_STRIP */
+/* STRIP */
+strip it
+/* END_STRIP */
+// comment
+code
+etc
+-----
+etc
+etc
+// comment
+code
+etc
