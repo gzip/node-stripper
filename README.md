@@ -64,7 +64,7 @@ This software is meant primarily as a build tool. A basic syntax and simple prep
     // #endifdef
     end
     // #ifndef BAR
-   nobar
+    nobar
     // #endifndef
 
 ##### Output
